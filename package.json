@@ -1,0 +1,12 @@
+{
+  "name": "art-store-layout",
+  "version": "1.0.0",
+  "main": "src/index.html",
+  "license": "MIT",
+  "scripts": {
+    "start": "serve -s ./src"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.9.6"
+  }
+}
