@@ -613,10 +613,15 @@ video {
 }
 
 .my-3 {
-  margin-top: 0.75rem;
+  margin-top: 0.95rem;
   margin-bottom: 0.75rem;
 }
-
+.mt-7 {
+  margin-top: 1.75rem;
+}
+.mt-8 {
+  margin-top: 2rem;
+}
 .flex {
   display: flex;
 }
