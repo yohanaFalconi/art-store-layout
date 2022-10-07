@@ -1,12 +1,21 @@
 module.exports = {
-  future: {
-    // removeDeprecatedGapUtilities: true,
-    // purgeLayersByDefault: true,
-  },
-  purge: [],
+  darkMode:"class",
+  content: ['./index.html'],
   theme: {
-    extend: {},
+    extend: {
+      spacing:{
+        "big":"48rem"
+      }
+    },
+    screens:{
+      sm:"280px",
+      md:"768px",
+      lg:"1024px",
+      xl:"1280px",
+    },
+    fontFamily:{
+      nunito:['Nunito', 'sans-serif']
+    }
   },
-  variants: {},
   plugins: [],
 }
